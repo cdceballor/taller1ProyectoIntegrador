@@ -4,4 +4,4 @@ from .models import Temperatura
 class TemperaturaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Temperatura
-        fields = ('id', 'type', 'value')
+        fields = ('id', 'type', 'value', 'lati', 'longi', 'tipTerr')
